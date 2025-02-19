@@ -5,7 +5,8 @@ $connection = getConnection();
 
 $sql = <<<SQL
 insert into customers(id, name, email)
-values('1', 'kousaka reina', 'kore@gmail.com');
+values('2', 'horikita suzune', 'hone@gmail.com'),
+('3', 'yukina minato', 'yumi@gmail.com');
 SQL;
 
 $connection->exec($sql);
